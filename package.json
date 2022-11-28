@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "documenter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "electron": "^21.3.1",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@pinia/nuxt": "^0.4.6",
+    "@unocss/nuxt": "^0.46.5",
+    "@vueuse/nuxt": "^9.6.0",
+    "nuxt-headlessui": "^1.0.4",
+    "nuxt-icon": "^0.1.7"
+  }
+}
